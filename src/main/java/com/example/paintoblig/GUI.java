@@ -64,7 +64,7 @@ public class GUI {
     }
 
     public VBox toolBox() {
-        // Oppretter og styler knapper og slider
+        // Oppretter og styler knapper og slider.
         VBox toolBox = new VBox(15);
         toolBox.setPadding(new Insets(100, 10, 15, 15));
         toolBox.setStyle("-fx-border-color: black");
