@@ -68,7 +68,7 @@ public class GUI {
         VBox toolBox = new VBox(15);
         toolBox.setPadding(new Insets(100, 10, 15, 15));
         toolBox.setStyle("-fx-border-color: black");
-        toolBox.setStyle("-fx-background-color: linear-gradient(to right, black, grey)");
+        toolBox.setStyle("-fx-background-color: linear-gradient(to left, black, grey)");
         toolBox.setAlignment(Pos.TOP_LEFT);
 
         Button flyttBak = new Button("Flytt bak");
